@@ -1,6 +1,6 @@
 # Projeto carrinho de compras
 
-Minha entrega do projeto 1 do Bootcamp da {Reprograma}.
+Minha entrega do projeto 1 do Bootcamp da [{reprograma}](https://reprograma.com.br/).
 Veja ao final desse README um exemplo do meu resultado.
 
 Para a construção dele utilizei `node.js`, `npm`, `readline-sync`.
