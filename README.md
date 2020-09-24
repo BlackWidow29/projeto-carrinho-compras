@@ -1,10 +1,11 @@
 # Projeto carrinho de compras
 
 Minha entrega do projeto 1 do Bootcamp da {Reprograma}.
+Veja ao final do exercício um exemplo do meu resultado final.
 
-Para a constrção dele utilizei `node.js`, `npm`, `readline-sync`.
+Para a construção dele utilizei `node.js`, `npm`, `readline-sync`.
 
-## Orientações do desafio
+### Orientações passadas para o desafio
 
 Precisamos criar uma solução de um carrinho de compras.
 
