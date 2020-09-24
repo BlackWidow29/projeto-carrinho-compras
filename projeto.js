@@ -21,11 +21,10 @@ const shopping = () => {
 
     productId = parseInt(readline.question('Digite o id do produto desejado: '))
 
-    // -- Validando se o iD existe
+    // -- Verificando se o iD existe
     for (i = 0; i < 1000; i++) {
         findingId = produtos.find(item => item.id === productId)
         if (findingId) {
-            // Com o break não consegui usar o Ternário
             break;
         } else {
             productId = parseInt(readline.question('Id não encontrado, tente novamente: '))
@@ -35,7 +34,7 @@ const shopping = () => {
    
     qtyOfItems = parseInt(readline.question('Digite a quantidade de produtos que gostaria de adquirir: '))
 
-    // -- Validando se a quantidade digitada é válida
+    // -- Verificando se a quantidade digitada é válida
     for (i = 0; i < 1000; i++) {
         if (qtyOfItems > 0) {
             break;
@@ -71,7 +70,7 @@ const shopping = () => {
 
 shopping()
 
-// -- Criando minha classe
+// -- Criando minha classe de Compra
 class Purchase {
     constructor(array){
       this.newProducts = array 
@@ -88,7 +87,7 @@ class Purchase {
     }
   }
 
-// -- Inicializando minha classe
+// -- Iniciando minha classe de Compras
 const purchase = new Purchase (array)
 console.table(purchase.newProducts) 
 
