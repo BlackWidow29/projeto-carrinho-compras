@@ -1,7 +1,7 @@
 # Projeto carrinho de compras
 
 Minha entrega do projeto 1 do Bootcamp da {Reprograma}.
-Veja ao final desse README um exemplo do meu resultado final.
+Veja ao final desse README um exemplo do meu resultado.
 
 Para a construção dele utilizei `node.js`, `npm`, `readline-sync`.
 
@@ -28,7 +28,7 @@ Precisamos criar uma solução de um carrinho de compras.
   - o valor total em Reais
   - a data da compra
 
-## Regras
+### Regras
 
 - Validação de produto existente pelo `id`. Caso não encontre o produto, apresentar uma mensagem de erro e solicitar novamente um `id` válido.
 
@@ -49,7 +49,7 @@ Precisamos criar uma solução de um carrinho de compras.
 
 ---
 
-### Exemplo do resultado final
+## Exemplo do resultado final
 
 <img src="./resultado_final.png" />
 
